@@ -1,0 +1,29 @@
+.menu ul {
+  display: none;
+  margin: 0;
+}
+
+.menu .title {
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu .title:before {
+  content: '▶';
+  padding-right: 3px;
+  color: green;
+  font-size: 9px;
+}
+
+.menu.open ul {
+  display: block;
+}
+
+.menu.open .title:before {
+  content: '▼';
+
+}

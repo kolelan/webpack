@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link href="menu.css" rel="stylesheet">
 </head>
 <body>
+<script type="text/template" id="menu-template">
+    <div class="menu">
+        <span class="title"><%-title%></span>
+    </div>
+</script>
+
+<script type="text/template" id="menu-list-template">
+    <ul>
+        <% items.forEach(function(item) { %>
+        <li><%-item%></li>
+        <% }); %>
+    </ul>
+</script>
 <script src="main.js"></script>
 
 </body>
