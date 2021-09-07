@@ -7,15 +7,15 @@
     "dev": "webpack --config webpack.config.js --mode development",
     "build": "webpack --config webpack.config.js --mode production"
   },
-  "keywords": [],
-  "author": "Kolelan",
+  "keywords": ["webpack","javascript"],
+  "author": "Kolelan <kolelan@yandex.ru>",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.34.0",
-    "webpack-cli": "^3.3.4"
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
   },
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.21"
   },
   "main": "webpack.config.js",
   "repository": {
